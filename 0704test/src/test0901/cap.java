@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class cap {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String s=sc.nextLine();
         int cap=sc.nextInt();
@@ -31,5 +31,16 @@ public class cap {
             }
         }
         return count;
+    }*/
+    public static void main(String[] args) {
+        Thread t=new Thread(){
+            @Override
+            public void run(){
+                System.out.println("hello");
+            }
+        };
+        t.run();
+        System.out.println("y");
+        t.run();
     }
 }

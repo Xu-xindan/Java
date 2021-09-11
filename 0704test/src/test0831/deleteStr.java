@@ -27,7 +27,6 @@ public class deleteStr {
                     }
                 }
                 A=A.substring(0,i)+A.substring(i+k);
-
             }
             i++;
         }
