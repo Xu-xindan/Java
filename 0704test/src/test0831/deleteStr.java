@@ -1,5 +1,7 @@
 package test0831;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class deleteStr {
@@ -16,6 +18,7 @@ public class deleteStr {
 
     public static String delString(String A){
         int i=0;
+        //Map<Integer,Integer> map=new HashMap<>();
         while(i < A.length()-2) {
             if(A.charAt(i)==A.charAt(i+1)&&A.charAt(i)==A.charAt(i+2)){
                 int k=3;
